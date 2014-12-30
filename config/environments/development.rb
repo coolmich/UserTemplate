@@ -33,8 +33,8 @@ Moorgoo::Application.configure do
   config.action_mailer.smtp_settings = {
      :address              => "smtp.gmail.com",
      :port                 => 587,
-     :user_name            => 'coolmich00@gmail.com',
-     :password             => 'google.00',
+     :user_name            => 'yourEmailAddress',
+     :password             => 'yourPassword',
      :authentication       => :plain,
      :enable_starttls_auto => true  }
 end

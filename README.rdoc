@@ -6,6 +6,8 @@ The template includes devise for user managements, including confirmable, most o
 
 If you need to change the default action within registration/login/password etc, please go to devise documents to see how to inherite from default controllers and make your own customizations.
 
+Add your email address in devise.rb and development.rb with your password to set up email.
+
 This template only works for development, please add more to production file.
 
 Enjoy!
